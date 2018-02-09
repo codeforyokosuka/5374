@@ -21,12 +21,12 @@ var AreaModel = function() {
   */
   this.isBlankDay = function(currentDate) {
     if (!this.center) {
-        return false;
+      return false;
     }
     var period = [this.center.startDate, this.center.endDate];
 
     if (period[0].getTime() <= currentDate.getTime() &&
-      currentDate.getTime() <= period[1].getTime()) {
+    currentDate.getTime() <= period[1].getTime()) {
       return true;
     }
     return false;
@@ -256,7 +256,7 @@ var TrashModel = function(_lable, _cell, remarks) {
           day_list.push(d);
         }
       }
-    /***ADD*****/   
+    /***ADD*****/
     } else {
       // 不定期回収の場合は、そのまま指定された日付をセットする
       for (var j in day_mix) {
@@ -574,8 +574,8 @@ $(function() {
             "</a>" +
             "</div>" +
             '<div id="collapse' + i + '" class="accordion-body collapse">' +
-            '<div class="accordion-inner">' +
-            description.description + "<br />" + target_tag +
+            '<div class="accordion-inner"><h3>' +
+            description.description + "</h3>" + target_tag +
             '<div class="targetDays"></div></div>' +
             "</div>" +
             "</div>";

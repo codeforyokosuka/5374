@@ -1,5 +1,5 @@
 label,sublabel,description,styles,bgcolor
-燃やさないごみ,,,img/moyasanai02.svg,#733b96
-資源,,,img/shigen02.svg,#77ae1f
-燃やすごみ,,,img/moyasu02.svg,#ea3b13
-びん,,,img/bin02.svg,#2dc7aa
+燃せるごみ,,ポリ袋（無色透明か白色半透明）または炭酸カルシウム入りポリ袋（白色半透明）に入れて出してください。焼却します。,img/moyasu02.svg,#ea3b13
+缶・びん・ペットボトル,,無色透明な45ℓ以下の袋に入れて出してください。二重袋で出さないでください。リサイクルします。,img/bin02.svg,#2dc7aa
+容器包装プラスチック,,無色透明な45ℓ以下の袋に入れて出してください。二重袋で出さないでください。リサイクルします。,img/shigen02.svg,#77ae1f
+不燃ごみ,,無色透明な袋に入れて出してください。埋め立てます。,img/moyasanai02.svg,#733b96
