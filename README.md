@@ -1,4 +1,8 @@
 # 5374について
+
+5374(ゴミナシ)はもともと  [Code for Kanazawa](http://codeforkanazawa.org/) が開発したものです。
+このリポジトリは Code for Kanazawa が開発した [5374](https://github.com/codeforkanazawa-org/5374) をフォークして神奈川県横須賀市向けに作り直したものです。
+
 For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
 
 ##「いつ、どのゴミが収集されているのか？」
@@ -35,42 +39,13 @@ http://localhost:10000/
 ```
 をアクセスしてください。
 
-
-## 最新版データへの更新
-金沢版は、金沢市が公開しているオープンデータを利用しているため、解析のプログラムを動作させます。
-
-オープンデータのパスが変わることがありますので注意願います。
-
-初めにGoをインストールしてください
-
-```
-make
-```
-を実行することにより、自動的にデータの更新がされます。
-
-中間データの削除を行う場合は
-```
-make clean
-```
-
-
-内部のテストを行う場合は
-```
-make test
-```
-
-を実行してください。
-
-
 ## 提供されるゴミ情報について
-金沢市が公開しているオープンデータをもとにしています。
-[その他のオープンデータ(環境関連)](http://www4.city.kanazawa.lg.jp/11010/opendata/other/kankyou.html)
+横須賀市が公開している [分別パンフレット「ごみと資源物の分け方・出し方」](https://www.city.yokosuka.kanagawa.jp/4220/kurashi/bunbetsupanfu.html) 内容をもとにしています。
 
-## 開発チームとライセンスについて
-- 小野 祐貴(Yuki ONO)　Developer
-- 五十川 員申(Kazunobu IKAGAWA)　Developer
-- 高木 志宗(Yukimune TAKAGI)　Developer
-- 宮田 人司(Hotoshi MIYATA)　Designer
+## Code for Yokosuka 開発メンバー
+- 鈴木 広之 (Hiroyuki Suzuki) Developer ([@mowarte](https://github.com/mowarte))
+
+## ライセンス
 
 本アプリ及びソースコードの著作権はCode for Kanazawaに帰属します。
 但し、このソースコードは[MPL](http://www.mozilla.org/MPL/2.0/)のもと配布されています。MPLに従えば、どなたでも利用、改変、及び再配布が可能です。
