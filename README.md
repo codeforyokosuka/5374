@@ -5,7 +5,7 @@
 
 For English please see [LOCALIZE_en.md](LOCALIZE_en.md).
 
-##「いつ、どのゴミが収集されているのか？」
+## 「いつ、どのゴミが収集されているのか？」
 
 ゴミの問題はどの地域でも深刻になりつつあります。
  [Code for Kanazawa](http://codeforkanazawa.org/)
@@ -40,7 +40,7 @@ http://localhost:10000/
 をアクセスしてください。
 
 ## 提供されるゴミ情報について
-横須賀市が公開している [分別パンフレット「ごみと資源物の分け方・出し方」](https://www.city.yokosuka.kanagawa.jp/4220/kurashi/bunbetsupanfu.html) 内容をもとにしています。
+横須賀市が公開している [分別パンフレット「ごみと資源物の分け方・出し方」](https://www.city.yokosuka.kanagawa.jp/4220/kurashi/bunbetsupanfu.html) の内容をもとにしています。
 
 ## Code for Yokosuka 開発メンバー
 - 鈴木 広之 (Hiroyuki Suzuki) Developer ([@mowarte](https://github.com/mowarte))
